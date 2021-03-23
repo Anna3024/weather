@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>weather using API from openweathermap</title>
+    <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="forecast" >
+        <a href="#" class="modal__close" id="modal-close" title="Закрыть модальное окно">&#10006</a>
+        <h2 id="location"></h2>
+        <div id="image"></div>
+        <h3 id="temp"></h3> 
+        <div id="feel"></div>
+        <div id="descr"></div>
+        <div id="wind"></div>
+        <button id="moreWeather">Прогноз на 3 дня</button>
+        <div id="weather3days" >
+            <div id="wait" class="closed"></div>
+            <ul>
+                <li id="day1">
+                    <h3 class="date"></h3>
+                    <div>
+                        <div class="image"></div>
+                        <div class="temp"></div> 
+                        <div class="descr"></div> 
+                    </div>
+                </li>
+                <li id="day2">
+                    <h3 class="date"></h3>
+                    <div>
+                        <div class="image"></div>
+                        <div class="temp"></div> 
+                        <div class="descr"></div> 
+                    </div>
+                </li>
+                <li id="day3">
+                    <h3 class="date"></h3>
+                    <div>
+                        <div class="image"></div>
+                        <div class="temp"></div> 
+                        <div class="descr"></div> 
+                    </div>
+                </li>
+            </ul>
+            <button id="hide" class="closed">Скрыть</button>
+        </div>
+    </div>
+    <button id="openWeather" class="closed">&#127782</button>
+
+<script src="script.js"></script>   
+
+    
+</body>
+</html>
