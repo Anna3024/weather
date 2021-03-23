@@ -73,7 +73,7 @@ class WeatherWidget {
             descrForecastArr[i].innerText = data.list[n].weather[0].description;
             n+=24/3; //через день с интервалом в 3 часа;
         }
-        container.style.height = 540 + "px";
+        container.style.height = 560 + "px";
     }
 
     events() {
