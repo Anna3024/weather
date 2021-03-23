@@ -2,6 +2,7 @@ const container = document.getElementById('forecast');
 const btnWeather = document.getElementById('openWeather');
 const cityID = 625144;
 
+
 class WeatherWidget {
     constructor() {
         this.location = document.getElementById('location');
